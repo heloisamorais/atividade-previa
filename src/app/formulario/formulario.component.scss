@@ -1,0 +1,54 @@
+body {
+    margin:1em;
+}
+.inline-edit-input {
+    width:100%;
+    margin:0;
+    padding:.25em 0;
+
+    outline:0;
+    border:none;
+    border-bottom:solid 1px transparent !important;
+    font-size:2em;
+    font-weight:bold;
+
+    &:hover {
+        border-bottom:solid 1px lightgray !important;
+    }
+    &:focus {
+        border-bottom:solid 1px black;
+    }
+}
+
+.virgula{
+    font-size: 2em;
+    font-size: bold;
+}
+
+.descricao--negrito{
+    font-weight: bold;
+}
+
+.qualidades{
+    border: 1px solid #000;
+    padding: 16px;
+}
+    .qualidades__item__descricao--align-right {
+        text-align: right;
+    }
+
+    .qualidades__item__checkbox--margem {
+        margin: 0 8px;
+    }
+
+.sorte{
+    margin-top: 8px;
+}
+
+.caracteristica__titulo--negrito {
+    font-weight: bold;
+}
+
+.texto--italico {
+    font-style: italic;
+}

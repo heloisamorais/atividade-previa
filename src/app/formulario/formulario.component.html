@@ -1,0 +1,650 @@
+<div class="container">
+    <form>
+        <div class="row">
+            <div class="col-sm">
+                <div class="form-group">
+                    <input class="inline-edit-input" type="text" class="title" placeholder="Insira um nome"
+                        autofocus />
+                </div>
+
+                <p class="descricao">Eu combato o fogo com <span class="descricao--negrito">fogo mágico.</span></p>
+
+                <div class="qualidades">
+                    <div class="qualidades__item row">
+                        <div class="col-md-4 qualidades__item__descricao--align-right">
+                            Partir pra porrada
+                            Proteger alguém
+                        </div>
+                        <input type="checkbox" class="col-md-4">
+                        <p class="col-md-4">BRAVEZA</p>
+                    </div>
+
+                    <div class="qualidades__item row">
+                        <div class="col-sm qualidades__item__descricao--align-right">
+                            Investigar um mistério
+                            Perceber uma enrascada
+                        </div>
+                        <input type="checkbox" class="col-sm">
+                        <p class="col-sm">ESPERTEZA</p>
+                    </div>
+
+                    <div class="qualidades__item row">
+                        <div class="col-sm qualidades__item__descricao--align-right">
+                            Usar magia
+                        </div>
+                        <input type="checkbox" class="col-sm">
+                        <p class="col-sm">ESTRANHEZA</p>
+                    </div>
+
+                    <div class="qualidades__item row">
+                        <div class="col-sm qualidades__item__descricao--align-right">
+                            Agir sob pressão
+                            Dar uma mão
+                        </div>
+                        <input type="checkbox" class="col-sm">
+                        <p class="col-sm">FIRMEZA</p>
+                    </div>
+
+                    <div class="qualidades__item row">
+                        <div class="col-sm qualidades__item__descricao--align-right">
+                            Manipular alguém
+                        </div>
+                        <input type="checkbox" class="col-sm">
+                        <p class="col-sm">Sutileza</p>
+                    </div>
+                </div>
+
+                <div class="sorte">
+                    <div class="sorte__titulo caracteristica__titulo--negrito">Sorte</div>
+                    <p class="sorte__descricao">Marque uma caixa de Sorte para alterar uma rolagem para 12 ou evitar
+                        todo o dano de um ferimento.</p>
+                    <div class="form-row">
+                        Salvo
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        Condenado
+                    </div>
+                </div>
+
+                <div class="dano">
+                    <div class="dano__titulo">Dano</div>
+                    <p class="dano__descricao">Quando você chegar em 4 ou mais, marque ‘Instável’.</p>
+                    <div class="form-row">
+                        Ileso
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        Morrendo
+                    </div>
+
+                    <div class="form-row">
+                        Instável: <input type="checkbox"> (Lesões instáveis pioraram com o tempo)
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="criacao-cacador">
+                    <div class="criacao-cacador__titulo caracteristica__titulo--negrito">CRIAÇÃO DO CAÇADOR</div>
+                    <div class="criacao-cacador__descricao">
+                        Para criar seu caçador Arcano, primeiro escolha e escreva um nome
+                        na primeira linha da folha. Então siga as instruções para decidir sua
+                        aparência, classificações, magia combativa, movimentos e equipamentos.
+                        Finalmente, se apresente e escolha o histórico.
+                    </div>
+                    <div class="criacao-cacador__subtitulo caracteristica__titulo--negrito">
+                        APARÊNCIA, ESCOLHA UMA EM CADA LISTA:
+                    </div>
+                    <ul class="criacao-cacador__lista">
+                        <li class="criacao-cacador__lista">Homem, mulher, andrógino</li>
+                        <li class="criacao-cacador__lista">Olhos sombrios, olhos ferozes, olhos cansados, olhos
+                            faiscantes.</li>
+                        <li class="criacao-cacador__lista">Roupas amarrotadas, roupas estilosas, roupas góticas,
+                            roupas antiquadas.</li>
+                    </ul>
+                    <div class="criacao-cacador__subtitulo">
+                        CLASSIFICAÇÕES, ESCOLHA UMA LINHA:
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="cassificacao1">
+                        <label class="form-check-label" for="cassificacao1">
+                            Braveza ±0, Esperteza +1, Estranheza +2, Firmeza +1, Sutileza −1
+                        </label>
+                    </div>
+
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="cassificacao1">
+                        <label class="form-check-label" for="cassificacao1">
+                            Braveza +1, Esperteza +1, Estranheza +2, Firmeza −1, Sutileza ±0
+                        </label>
+                    </div>
+
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="cassificacao1">
+                        <label class="form-check-label" for="cassificacao1">Braveza ±0, Esperteza +1, Estranheza +2,
+                            Firmeza +1, Sutileza −1</label>
+                    </div>
+
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="cassificacao2">
+                        <label class="form-check-label" for="cassificacao2">
+                            Braveza −1, Esperteza +2, Estranheza +2, Firmeza ±0, Sutileza −1
+                        </label>
+                    </div>
+
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="cassificacao3">
+                        <label class="form-check-label" for="cassificacao3">
+                            Braveza −1, Esperteza +1, Estranheza +2, Firmeza ±0, Sutileza +1
+                        </label>
+                    </div>
+
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="cassificacao4">
+                        <label class="form-check-label" for="cassificacao4">
+                            Braveza ±0, Esperteza +1, Estranheza +2, Firmeza ±0, Sutileza ±0
+                        </label>
+                    </div>
+                </div>
+
+                <div class="apresentacoes">
+                    <div class="apresentacoes__titulo caracteristica__titulo--negrito">
+                        APRESENTAÇÕES
+                    </div>
+                    <div class="apresentacoes__descricao">
+                        Quando você chegar aqui, espere que todos também cheguem para
+                        que vocês se apresentem juntos. Na sua vez descreva seu caçador e
+                        diga ao grupo o que eles sabem sobre você.
+                    </div>
+
+                    <div class="apresentacoes__historico">
+                        <div class="apresentacoes__historico__titulo caracteristica__titulo--negrito">
+                            HISTÓRICO
+                        </div>
+
+                        <div class="apresentacoes__historico__descricao">
+                            Na sua vez escolha um destes para cada um dos caçadores:
+                        </div>
+
+                        <ul class="apresentacoes__historico__lista">
+                            <li class="apresentacoes__historico__item">
+                                Ele age como sua consciência quando você sente o poder subir à cabeça.
+                                Pergunte a ele sobre a última vez que isto aconteceu
+                            </li>
+                            <li class="apresentacoes__historico__item">
+                                Parentes de sangue, embora vocês não tenham tido contato por
+                                vários anos. Pergunte a ele como vocês se reconectaram.
+                            </li>
+                            <li class="apresentacoes__historico__item">
+                                Mentor de uma outra vida. Pergunte a ele o que ele te ensinou.
+                            </li>
+                            <li class="apresentacoes__historico__item">
+                                Quando você o resgatou exibindo sua magia, você o introduziu
+                                ao sobrenatural. Diga a ele que criatura estava atrás dele.
+                            </li>
+                            <li class="apresentacoes__historico__item">
+                                Uma velha rivalidade que se tornou uma forte amizade. Diga a
+                                ele o que vocês disputavam.
+                            </li>
+                            <li class="apresentacoes__historico__item">
+                                Você pensou que ele estava morto, e agora ele está de volta. O que o “matou”?
+                            </li>
+                            <li class="apresentacoes__historico__item">
+                                Ele é um interesse amoroso que vai e volta. Pergunte a ele o que
+                                mantém vocês separados. Diga a ele o que mantém vocês juntos.
+                            </li>
+                            <li class="apresentacoes__historico__item">
+                                Um companheiro de luta. Vocês enfrentaram as maiores ameaças juntos.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="subindo-nivel">
+                    <div class="subindo-nivel__titulo caracteristica__titulo--negrito">SUBINDO DE NÍVEL</div>
+                    <div class="form-group form-check">
+                        <label class="form-check-label">
+                            Experiência:
+                        </label>
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                    </div>
+                    <div class="subindo-nivel__descricao">
+                        Sempre que sua rolagem for 6 ou menos, ou quando um movimento determinar,
+                        marque uma caixa de experiência. Quando você tiver preenchido todas as cinco
+                        caixas de experiência, você sobe de nível. Apague todas as caixas e escolha
+                        uma melhoria da seguinte lista:
+                    </div>
+                    <div class="subindo-nivel__melhorias">
+                        <div class="subindo-nivel__melhorias__titulo caracteristica__titulo--negrito">
+                            MELHORIAS
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="cassificacao4">
+                            <label class="form-check-label" for="cassificacao4">
+                                Receba +1 em Estranheza (máximo +3).
+                            </label>
+                        </div>
+
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="cassificacao4">
+                            <label class="form-check-label" for="cassificacao4">
+                                Receba +1 em Firmeza (máximo +2).
+                            </label>
+                        </div>
+
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="cassificacao4">
+                            <label class="form-check-label" for="cassificacao4">
+                                Receba +1 em Esperteza (máximo +2)
+                            </label>
+                        </div>
+
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="cassificacao4">
+                            <label class="form-check-label" for="cassificacao4">
+                                Receba +1 em Braveza (máximo +2).
+                            </label>
+                        </div>
+
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="cassificacao4">
+                            <label class="form-check-label" for="cassificacao4">
+                                Pegue outro movimento de Arcano.
+                            </label>
+                        </div>
+
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="cassificacao4">
+                            <label class="form-check-label" for="cassificacao4">
+                                Pegue outro movimento de Arcano.
+                            </label>
+                        </div>
+
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="cassificacao4">
+                            <label class="form-check-label" for="cassificacao4">
+                                Pegue um movimento de outra cartilha.
+                            </label>
+                        </div>
+
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="cassificacao4">
+                            <label class="form-check-label" for="cassificacao4">
+                                Pegue um movimento de outra cartilha.
+                            </label>
+                        </div>
+
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="cassificacao4">
+                            <label class="form-check-label" for="cassificacao4">
+                                Pegue outra escolha de Magia Combativa.
+                            </label>
+                        </div>
+                    </div>
+                    <div class="subindo-nivel__descricao">
+                        Depois de você subir de nível cinco vezes, você já pode ter
+                        melhorias avançadas além destas.
+                    </div>
+
+                    <div class="subindo-nivel__melhorias-avancadas">
+                        <div class="subindo-nivel__melhorias-avancadas__titulo">
+                            MELHORIAS AVANÇADAS
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="cassificacao4">
+                            <label class="form-check-label" for="cassificacao4">
+                                Receba +1 em qualquer classificação (máximo +3).
+                            </label>
+                        </div>
+
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="cassificacao4">
+                            <label class="form-check-label" for="cassificacao4">
+                                Mude este caçador para um novo tipo.
+                            </label>
+                        </div>
+
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="cassificacao4">
+                            <label class="form-check-label" for="cassificacao4">
+                                Crie um segundo caçador para jogar junto com este.
+                            </label>
+                        </div>
+
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="cassificacao4">
+                            <label class="form-check-label" for="cassificacao4">
+                                Marque dois dos movimentos básicos como avançados.
+                            </label>
+                        </div>
+
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="cassificacao4">
+                            <label class="form-check-label" for="cassificacao4">
+                                Marque outros dois dos movimentos básicos como avançados.
+                            </label>
+                        </div>
+
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="cassificacao4">
+                            <label class="form-check-label" for="cassificacao4">
+                                Aposente este caçador para uma vida segura.
+                            </label>
+                        </div>
+
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="cassificacao4">
+                            <label class="form-check-label" for="cassificacao4">
+                                Apague uma caixa marcada de Sorte.
+                            </label>
+                        </div>
+
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="cassificacao4">
+                            <label class="form-check-label" for="cassificacao4">
+                                Pegue outra escolha de Magia Combativa.
+                            </label>
+                        </div>
+
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="cassificacao4">
+                            <label class="form-check-label" for="cassificacao4">
+                                Você pode eliminar outra opção das suas Ferramentas e técnicas.
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm">
+                <div class="magia-combativa">
+                    <div class="magia-combativa__titulo caracteristica__titulo--negrito">MAGIA COMBATIVA</div>
+                    <div class="magia-combativa__descricao">
+                        Você tem alguns feitiços de ataque que pode usar como ar-
+                        mas. Quando você usar estes feitiços para partir pra por-
+                        rada, role +Estranheza em vez de +Braveza. Algumas vezes
+                        a situação pode fazer você agir sob pressão para que o fei-
+                        tiço seja lançado sem problemas.
+                        Escolha três opções da lista abaixo. Seus feitiços combativos
+                        podem combinar qualquer base com qualquer efeito.
+                        Magia combativa (escolha três, tendo pelo menos uma
+                        base):
+                    </div>
+                    <div class="magia-combativa__escolhas">
+                        <div class="magia-combativa__escolhas__titulo">Bases:</div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="cassificacao4">
+                            <label class="form-check-label" for="cassificacao4">
+                                Explosão [2-dano perto mágica chamativa barulhenta]
+                            </label>
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="cassificacao4">
+                            <label class="form-check-label" for="cassificacao4">
+                                Bola [1-dano perto área mágica chamativa barulhenta]
+                            </label>
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="cassificacao4">
+                            <label class="form-check-label" for="cassificacao4">
+                                Míssil [1-dano longe mágica chamativa barulhenta]
+                            </label>
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="cassificacao4">
+                            <label class="form-check-label" for="cassificacao4">
+                                Muralha [1-dano perto barreira 1-armadura mágica chamativa barulhenta]
+                            </label>
+                        </div>
+                    </div>
+                    <div class="magia-combativa__escolhas">
+                        <div class="magia-combativa__escolhas__titulo">Efeitos:</div>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="cassificacao4">
+                        <label class="form-check-label" for="cassificacao4">
+                            Fogo: Adicione +2 de dano e [fogo] para uma base.
+                            Com 10+ em uma rolagem de magia combativa, o fogo não via se espalhar.
+                        </label>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="cassificacao4">
+                        <label class="form-check-label" for="cassificacao4">
+                            Força ou Vento: Adicione +1 de dano e [empurrão] para uma base;
+                            ou +1 de armadura para uma muralha.
+                        </label>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="cassificacao4">
+                        <label class="form-check-label" for="cassificacao4">
+                            Raio ou Entropia: Adicione +1 de dano e [brutal] para uma base.
+                        </label>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="cassificacao4">
+                        <label class="form-check-label" for="cassificacao4">
+                            Frio ou Gelo: Adicione −1 de dano e +2 de armadura para uma muralha;
+                            ou +1 de dano e [restritiva] para ou- tras bases.
+                        </label>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="cassificacao4">
+                        <label class="form-check-label" for="cassificacao4">
+                            Terra: Adicione [empurrão restritiva] para uma base.
+                        </label>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="cassificacao4">
+                        <label class="form-check-label" for="cassificacao4">
+                            Necromântica: Adicione [drena-vida] para uma base.
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="movimentos">
+                    <div class="movimentos__titulo caracteristica--titulo">MOVIMENTOS</div>
+                    <div class="movimentos__descricao">
+                        Você recebe todos os movimentos básicos e quatro movimentos de caçador Arcano.
+                        Você recebe este:
+                    </div>
+
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="cassificacao4">
+                        <label class="form-check-label" for="cassificacao4">
+                            Ferramentas e técnicas: Para poder usar sua magia combativa
+                            efetivamente, você depende de uma série de ferramentas e téc-nicas.
+                            Se você não utilizá-las, haverá algumas complicações. Eli-mine
+                            uma destas; você vai necessitar das outras.
+                        </label>
+                        <ul>
+                            <li>Consumíveis: Você precisa ter certos suprimentos — pós,
+                                óleos, etc. — a mão para lançar seu feitiço. Eles são consu-
+                                midos quando você lança o feitiço. Se você não os tiver a
+                                mão, seu corpo será o substituto: receba [1-dano ignora-
+                                armadura] quando lançar.
+                            </li>
+                            <li>
+                                Focos: Você precisa de varinhas, cajados e outros imple-
+                                mentos chamativos para focar seus esforços de forma mais
+                                poderosa. Se você não tiver o que precisa a mão, sua magia
+                                combativa causa −1 de dano.
+                            </li>
+                            <li>
+                                Gestos: Você precisa ser capaz de gesticular com suas mãos
+                                de forma chamativa para poder usar sua magia combativa.
+                                Se você estiver preso de alguma forma você ainda conse-
+                                gue lançar o feitiço, mas as chances de dar errado são mai-
+                                ores; receba −1 constante em sua magia combativa.
+                            </li>
+                            <li>
+                                Encantamentos: Você precisa falar em uma linguagem místi-
+                                ca para controlar sua magia sem filtrá-la diretamente com
+                                sua mente. Se você usar um feitiço de magia combativa,
+                                com sucesso ou falha, enquanto não pode ou não quer fa-
+                                lar, você deve imediatamente agir sob pressão para evitar
+                                embaralhar seus pensamentos — produzindo alucinações,
+                                perda de sentidos e desorientação em geral.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="movimentos__instrucao texto--italico">
+                        Depois escolhe três destes:
+                    </div>
+
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="cassificacao4">
+                        <label class="form-check-label" for="cassificacao4">
+                            Treinamento mágico avançado: Se você tiver duas de suas
+                            três Ferramentas e técnicas à disposição, você pode ignorar
+                            a terceira.
+                        </label>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="cassificacao4">
+                        <label class="form-check-label" for="cassificacao4">
+                            Reputação mágica: Escolha três grandes grupos ou organiza-
+                            ções da comunidade sobrenatural, o que pode incluir alguns
+                            dos tipos mais sociáveis de monstros. Eles ouviram falar você
+                            e respeitam seu poder. Com humanos afetados, receba +1 adi-
+                            ante para manipular alguém. Você pode usar manipular al-
+                            guém em monstros afetados como se eles fossem humanos,
+                            mas sem bônus.
+                        </label>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="cassificacao4">
+                        <label class="form-check-label" for="cassificacao4">
+                            Vestuário encantado: Escolha uma peça de vestuário do dia a
+                            dia — ela está encantada sem nenhuma alteração na aparência.
+                            Receba 1 de dano a menos de qualquer coisa que tentar te acer -
+                            tar através da peça de roupa.
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="cassificacao4">
+                    <label class="form-check-label" for="cassificacao4">
+                        Poderia ser pior: Quando você falhar em uma rolagem
+                        para usar magia você pode usar uma das seguintes op-
+                        ções em vez de perder o controle da magia:
+                    </label>
+                    <ul>
+                        <li>
+                            Fiasco: As preparações e materiais para o feitiço fo-
+                            ram arruinados. Você terá que começar do zero
+                            com o tempo de preparação dobrado.
+                        </li>
+                        <li>
+                            Isso não vai ser bom: O efeito acontece, mas você aci-
+                            ona todos os defeitos listados menos um. Você es-
+                            colhe qual defeito vai evitar.
+                        </li>
+                    </ul>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="cassificacao4">
+                    <label class="form-check-label" for="cassificacao4">
+                        Adivinhação forense: Quando você investigar um
+                        mistério com sucesso, você pode perguntar “Que ma-
+                        gia foi feita aqui?” como uma pergunta extra e gratuita.
+                    </label>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="cassificacao4">
+                    <label class="form-check-label" for="cassificacao4">
+                        Vá com tudo ou vá pra casa: Quando você precisar
+                        usar magia como um requisito de magia grandiosa,
+                        receba +1 constante nestas rolagens de usar magia.
+                    </label>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="cassificacao4">
+                    <label class="form-check-label" for="cassificacao4">
+                        Não é minha culpa: Receba +1 para agir sob pressão
+                        quando estiver lidando com as consequências dos seus
+                        próprios feitiços.
+                    </label>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="cassificacao4">
+                    <label class="form-check-label" for="cassificacao4">
+                        Praticante: Escolha dois efeitos dos disponíveis de
+                        usar magia. Receba +1 para usar magia sempre que es-
+                        colher um destes efeitos.
+                    </label>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="cassificacao4">
+                    <label class="form-check-label" for="cassificacao4">
+                        Escudo mágico: Quando você proteger alguém, você
+                        recebe [2-armadura] contra qualquer dano que seja
+                        transferido para você. Isto não acumula com outras ar-
+                        maduras, se houver.
+                    </label>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="cassificacao4">
+                    <label class="form-check-label" for="cassificacao4">
+                        Terceiro olho: Quando você perceber uma enrascada,
+                        você pode abrir seu terceiro olho por um momento
+                        para perceber informações extras. Receba +1 de reserva
+                        em qualquer resultado 7 ou maior, você também conse-
+                        gue enxergar coisas invisíveis. Com uma falha, você
+                        ainda pode reservar 1, mas você está exposto aos peri-
+                        gos sobrenaturais. A totalidade da realidade oculta é
+                        dura na mente!
+                    </label>
+                </div>
+
+                <div class="caracteristica">
+                    <div class="caracteristica__titulo--negrito">EQUIPAMENTOS</div>
+                    <div class="caracteristicas__descricao">
+                        Você não precisa de muito — além de qualquer foco ou con-
+                        sumível para dar poder à sua magia. No entanto, ainda é
+                        bom ter uma reserva.
+                    </div>
+                    <div class="caracteristica__informativo">
+                        Armas de reserva (escolha uma):
+                    </div>
+
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="cassificacao4">
+                        <label class="form-check-label" for="cassificacao4">
+                            Revólver velho [2-dano perto recarga barulhenta]
+                        </label>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="cassificacao4">
+                        <label class="form-check-label" for="cassificacao4">
+                            Faca ritualística [1-dano contato]
+                        </label>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="cassificacao4">
+                        <label class="form-check-label" for="cassificacao4">
+                            Espada herdada [2-dano contato brutal]
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
